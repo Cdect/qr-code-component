@@ -12,7 +12,6 @@ body {
   align-items: center;
 }
 
-/* Card */
 .card {
   background-color: #ffffff;
   width: 320px;
@@ -24,13 +23,13 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect */
+
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 25px 40px rgba(247, 2, 255, 0.805);
 }
 
-/* QR Image */
+
 .qr-image {
   width: 100%;
   border-radius: 12px;
@@ -41,15 +40,15 @@ body {
   transform: scale(1.05);
 }
 
-/* Heading */
+
 .card h1 {
   font-size: 18px;
   font-weight: 600;
   margin: 16px 0 12px;
-  color: #4b3f72; /* lavender text */
+  color: #4b3f72; 
 }
 
-/* Paragraph */
+
 .card p {
   font-size: 14px;
   color: #6b5b95;
@@ -57,7 +56,6 @@ body {
   margin-bottom: 8px;
 }
 
-/* Animation */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -68,3 +66,4 @@ body {
     transform: translateY(0);
   }
 }
+
